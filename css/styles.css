@@ -139,12 +139,25 @@ color: var(--secondary-color)
 
 
  /* FOOTER */
- .address {
-font-style:normal;
+
+ .footer-logo{
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
+  color:#FFFFFF;
+  text-decoration: none;
+}
+.footer-logo>.web {
+  color: #2196f3;
+ }
+ .footer-address {
 font-size: 14px;
 line-height: 1.714;
 letter-spacing: 0.03em;
 color: #FFFFFF;
+text-decoration: none;
  }
 
  .footer-contacts {
@@ -155,6 +168,8 @@ color: rgba(255, 255, 255, 0.6);
 text-decoration: none;
  }
 
+.footer-address:hover,
+.footer-address:focus,
 .footer-contacts:hover,
 .footer-contacts:focus {
 color: #2196F3;
